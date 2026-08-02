@@ -1,8 +1,14 @@
 aid: upstream-security
 name: Upstream Security
-description: 'Upstream Security is a company surfaced as a portfolio company of crv and added to the API
-  Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Upstream Security is a cloud-based automotive and smart-mobility cybersecurity
+  company. Its purpose-built vehicle data platform delivers Cyber XDR detection
+  and response for connected vehicles, runtime AI and API security, proactive
+  quality detection, and advanced analytics, alongside AutoThreat PRO threat
+  intelligence and Vehicle Security Operations Center (vSOC) services for OEMs,
+  Tier 1 and 2 suppliers, fleets, insurers, EV charging, and mobility IoT
+  operators. Upstream publishes no public developer portal or API; the platform
+  is sold as enterprise SaaS with demo-based onboarding.
 url: https://raw.githubusercontent.com/api-evangelist/upstream-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://upstream.auto/wp-content/uploads/2024/06/Untitled-design-14.png
 tags:
 - Company
 - Security
+- Cybersecurity
+- Automotive
+- Connected Vehicles
+- Mobility
+- IoT
+- Threat Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/upstream-security-trust-center.yml
+- type: DomainSecurity
+  url: security/upstream-security-domain-security.yml
 - type: Website
   url: https://upstream.auto/
+- type: Blog
+  url: https://upstream.auto/blog/
+- type: Support
+  url: https://upstreamsecurity.atlassian.net/servicedesk/customer/portal/2
+- type: TermsOfService
+  url: https://upstream.auto/terms-of-use/
+- type: PrivacyPolicy
+  url: https://upstream.auto/privacy-policy/
+- type: Security
+  url: https://upstream.auto/upstreams-vulnerability-disclosure-policy/
+- type: VulnerabilityDisclosure
+  url: security/upstream-security-vulnerability-disclosure.yml
+- type: Compliance
+  url: https://upstream.auto/security-compliance/
+- type: Conformance
+  url: conformance/upstream-security-conformance.yml
+- type: LLMsTxt
+  url: llms/upstream-security-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

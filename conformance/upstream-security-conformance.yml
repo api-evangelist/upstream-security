@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://upstream.auto/security-compliance/
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: 'SOC 2 Type 2 report listed on https://upstream.auto/security-compliance/'
+  - id: iso27001
+    conforms: true
+    evidence: 'ISO/IEC 27001:2022 ISMS listed on https://upstream.auto/security-compliance/'
+  - id: iso9001
+    conforms: true
+    evidence: 'ISO 9001:2015 QMS listed on https://upstream.auto/security-compliance/'
+  - id: iso14001
+    conforms: true
+    evidence: 'ISO 14001:2015 EMS listed on https://upstream.auto/security-compliance/'
+  - id: tisax
+    conforms: true
+    evidence: 'TISAX Assessment Level 3 (AL3), assessment ID AZ67V0-1, scope ID SMN155'
+  - id: gdpr
+    conforms: true
+    evidence: 'GDPR and Japan APPI adherence stated on https://upstream.auto/security-compliance/'
+  - id: eu-us-dpf
+    conforms: true
+    evidence: 'EU-U.S. and Swiss-U.S. Data Privacy Framework certification with the U.S. Department of Commerce'
+  - id: unece-r155
+    conforms: false
+    evidence: >-
+      Upstream sells UNECE WP.29 R155/R156 regulatory-compliance solutions to
+      OEMs (https://upstream.auto/solutions/regulatory-compliance/) but publishes
+      no claim of its own product certification against the regulation.
+notes: >-
+  Upstream Security publishes no public API surface, so API-level standards
+  (oauth2, oidc, rfc9457, pagination, idempotency) cannot be assessed.

@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://upstream.auto/security-compliance/
+url: https://upstream.auto/security-compliance/
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+- ISO 9001:2015
+- ISO 14001:2015
+- TISAX
+- GDPR
+- EU-U.S. Data Privacy Framework
+details:
+  tisax:
+    description: >-
+      TISAX assessment for European automotive information security.
+      Assessment ID AZ67V0-1, Assessment Level 3 (AL3), scope ID SMN155.
+    level: AL3
+  soc2:
+    description: SOC 2 Type 2 report on controls safeguarding customer data.
+  iso27001:
+    description: ISO/IEC 27001:2022 information security management system (ISMS).
+  iso9001:
+    description: ISO 9001:2015 quality management system (QMS).
+  iso14001:
+    description: ISO 14001:2015 environmental management system (EMS).
+  privacy:
+    description: >-
+      GDPR and Japan APPI adherence; certified to the EU-U.S. and Swiss-U.S.
+      Data Protection Framework (DPF) with the U.S. Department of Commerce.
+    dpf: https://www.dataprivacyframework.gov/s/
+evidence:
+- source: https://upstream.auto/security-compliance/
+  keywords:
+  - soc 2
+  - soc2
+  - iso 27001
+  - iso/iec 27001
+  - gdpr
+  - tisax
+  - iso 9001
+  - iso 14001
+  - data protection framework

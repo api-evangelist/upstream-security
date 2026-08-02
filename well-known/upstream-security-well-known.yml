@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+host: https://upstream.auto
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    note: redirects to trailing-slash WordPress route; no RFC 8414 metadata served
+  - path: /.well-known/api-catalog
+    status: 301
+    note: redirects to trailing-slash WordPress route; no RFC 9727 api-catalog served
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  Probed 2026-07-21. No well-known discovery surface is published on
+  upstream.auto; the 301s are the WordPress trailing-slash redirect, not real
+  documents. Upstream ships no public developer host to probe separately.

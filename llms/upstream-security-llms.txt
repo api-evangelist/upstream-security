@@ -1,0 +1,40 @@
+# Upstream Security
+
+> Upstream Security is a cloud-based automotive and smart-mobility cybersecurity company. Its purpose-built vehicle data platform delivers Cyber XDR (detection and response) for connected vehicles, runtime AI and API security, proactive quality detection, and advanced analytics, alongside AutoThreat PRO threat intelligence and Vehicle Security Operations Center (vSOC) services for OEMs, Tier 1/2 suppliers, fleets, insurers, and smart-mobility/IoT operators.
+
+Upstream publishes no public developer portal or API reference; the platform is
+sold as an enterprise SaaS with demo-based onboarding. This file was generated
+by API Evangelist from the public website surface.
+
+## Platform
+
+- [The Upstream Platform](https://upstream.auto/platform/): cloud-based connected-vehicle data platform
+- [Cyber XDR](https://upstream.auto/platform/cybersecurity/): vehicle detection and response
+- [Runtime AI and API Security](https://upstream.auto/platform/api-security/): protecting mobility APIs and AI agents at runtime
+- [Proactive Quality Detection](https://upstream.auto/platform/upstream-proactive-quality-detection/)
+- [Advanced Analytics](https://upstream.auto/platform/advanced-analytics/)
+
+## Services
+
+- [AutoThreat PRO](https://upstream.auto/autothreat-pro/): automotive threat intelligence
+- [Vehicle Security Operations Center (vSOC)](https://upstream.auto/solutions/vehicle-security-operations-center/)
+- [Cyber Readiness Services](https://upstream.auto/solutions/cyber-readiness-services/)
+
+## Company
+
+- [About Upstream](https://upstream.auto/company/)
+- [Blog](https://upstream.auto/blog/)
+- [Global Automotive Cybersecurity Report](https://upstream.auto/reports/global-automotive-cybersecurity-report/)
+- [Partners](https://upstream.auto/partners/)
+- [Contact](https://upstream.auto/contact-us/)
+
+## Security
+
+- [Security & Compliance](https://upstream.auto/security-compliance/): TISAX AL3, SOC 2 Type 2, ISO/IEC 27001:2022, ISO 9001, ISO 14001, GDPR/APPI, EU-U.S. DPF
+- [Vulnerability Disclosure Policy](https://upstream.auto/upstreams-vulnerability-disclosure-policy/)
+
+## Policies
+
+- [Terms of Use](https://upstream.auto/terms-of-use/)
+- [Privacy Policy](https://upstream.auto/privacy-policy/)
+- [Cookies Policy](https://upstream.auto/cookies-policy/)
