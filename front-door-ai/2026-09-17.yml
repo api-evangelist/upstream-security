@@ -1,0 +1,34 @@
+# Front Door AI Index — upstream-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: upstream-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: upstream.auto
+  final_host: upstream.auto
+  ownership: own
+  owner: upstream-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 43
+  host_score: 43
+  density: 24.56
+  words: 1751
+  tiers:
+    agentic: 6
+    core: 37
+    model: 0
+  ambiguous: 20
+  top_terms:
+    AI: 20
+    intelligence: 10
+    ML: 8
+    gen ai: 7
+    smart: 6
+    MCP: 4
+    LLMs: 2
+    agent: 2
+    agentic: 2
+    predictive: 2
