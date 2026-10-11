@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "upstream-security",
+    "captured_at": "2026-10-11T195027",
+    "source_url": "https://upstream.auto/",
+    "source_type": "Website",
+    "file": "upstream-security-2026-10-11T195027.png",
+    "bytes": 136703,
+    "capture": "playwright-local"
+  }
+]
