@@ -11,8 +11,8 @@ edges:
   type: marketplace
   marketplace: aws-marketplace
   channel: distribution
-  relationship: platform-app
-  direction: provider-built
+  relationship: distribution-channel
+  direction: third-party
   evidence: https://aws.amazon.com/marketplace/seller-profile?id=c2e4bab5-137c-4059-86e5-1acbca8bb7ba
   listing_count: 4
   apps:
@@ -29,8 +29,8 @@ edges:
   type: marketplace
   marketplace: azure-marketplace
   channel: distribution
-  relationship: platform-app
-  direction: provider-built
+  relationship: distribution-channel
+  direction: third-party
   evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Upstream%20Security%20LTD
   listing_count: 2
   apps:
