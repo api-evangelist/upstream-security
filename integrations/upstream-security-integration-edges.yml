@@ -6,6 +6,24 @@ checked:
 - splunk/integrations/splunk-integration-edges.yml
 marketplace_apps: []
 edges:
+- partner_name: Splunk (own)
+  partner: splunk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://splunkbase.splunk.com/app/8537/
+  mirror_of: splunk/integrations/splunk-integration-edges.yml
+  apps:
+  - Upstream Security Add-on for Cybersecurity Alerts
+  - Upstream Security for AI and API Cybersecurity Alerts
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: addon
 - partner_name: AWS Marketplace
   partner: amazon-web-services
   partner_match: aggregator
@@ -18,8 +36,8 @@ edges:
   listing_count: 4
   apps:
   - Runtime AI and API Security
-  - Upstream AutoThreat PRO
   - Upstream Platform
+  - Upstream AutoThreat PRO
   - Upstream PQD (Proactive Quality Detection)
   seller_name: Upstream
   detected_by: sweep-cloud-marketplaces.py
@@ -40,23 +58,5 @@ edges:
   seller_name: Upstream Security LTD
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
-- partner_name: Splunk (own)
-  partner: splunk
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://splunkbase.splunk.com/app/8537/
-  mirror_of: splunk/integrations/splunk-integration-edges.yml
-  apps:
-  - Upstream Security Add-on for Cybersecurity Alerts
-  - Upstream Security for AI and API Cybersecurity Alerts
-  listing_count: 2
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: addon
 source:
 - splunk/integrations/splunk-integration-edges.yml
